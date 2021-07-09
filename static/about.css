@@ -1,0 +1,31 @@
+*{
+	margin: 0;
+	padding: 0;
+	box-sizing: border-box;
+}
+
+body{
+	margin: 0;
+	padding: 0;
+	box-sizing: border-box;
+	
+}
+
+.about{
+	align-content: center;
+	padding: 20px;
+	padding-bottom: 0px;
+	padding-top: 1px;
+	font-size: 10px;
+	font-weight: 500;
+	color: aliceblue;
+	letter-spacing: 1px;
+}
+
+
+
+@media (max-width: 767px) {
+	.about{
+		width: 100%;
+	}
+}

@@ -1,0 +1,19 @@
+body {
+  background-image: url("../static/background.jpg");
+  background-size: cover;
+  background-repeat: no-repeat;
+}
+div font a {
+  display: none;
+  text-decoration: none;
+  color: white;
+  position: relative;
+  margin: 4px;
+  padding: 3px;
+}
+div h2 a {
+  display: none;
+  position: relative;
+  margin: 4px;
+  padding: 2px;
+}

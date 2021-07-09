@@ -1,0 +1,75 @@
+* {
+	margin: 0;
+	padding: 0;
+	box-sizing: border-box;
+	color: aliceblue;
+}
+
+body {
+	font-family: Baskerville, "Palatino Linotype", Palatino, "Century Schoolbook L", "Times New Roman", "serif";
+	font-size: 16px;
+	color: white;	
+}
+
+
+.box {
+	color: cyan;
+	width: 80%;
+	height: 550px;
+	display: inline-block;
+	margin: 50px 10%;
+	box-shadow: 0 27px 87px rgba(0,0,0,0.37);
+	border-radius: 25px;
+	overflow: hidden;	
+	background: #605858;
+}
+
+.box-img {
+	float: left;
+	width: 45%;
+	
+}
+
+.box-text {
+	width: 50%;
+	color: #F1E9E9;
+	float: left;
+	padding: 20px 20px 35px 35px;
+}
+
+.box-text h1 {
+	font-style: 48px;
+	font-weight: bold;
+	color: #E8D9D9;
+	margin-bottom: 25px;
+}
+
+.box-text p {
+	font-size: 16px;
+	font-weight: 400;
+	color: #E9D4D5;
+	line-height: 30px;
+	letter-spacing: 0.25px;
+	transition: all ease 0.2s;
+}
+
+.box-text .social a{
+	display: inline-block;
+	width: 50px;
+	height: 50px;
+	background: linear-gradient(to left, black , #2e2e2e );
+	border-radius: 50px;
+	color: #FFFFFF;
+	font-size: 28px;
+	text-align: center;
+	line-height: 50px;
+	margin: 0 15px 0 0;
+		
+}
+
+.box-text .social a:hover {
+	background: #6463E9;
+	color: #333;
+	
+	
+}

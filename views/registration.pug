@@ -1,0 +1,43 @@
+doctype html
+html(lang='en')
+  head
+    meta(charset='UTF-8')
+    meta(name='viewport' content='width = device-width, initial-scale = 1.0')
+    title  IamDeadHacker | SignUP 
+    link(rel='stylesheet' href='../static/registration.css')
+  body
+    .container
+      .form
+        .heading
+          h3 ÌåmÐêåÐHå¢kêr: Registration
+        form(action='/register' method='post')
+          .wrap
+            .f1
+              label  First Name 
+              input.format(type='text' name='firstname')
+              span.focus-input
+            .f2
+              label  Last Name 
+              input.format(type='text' name='lastname')
+              span.focus-input
+          .wrap2
+            label  Username 
+            input.format(type='text' name='username')
+            span.focus-input2
+          .wrap2
+            label  E-mail 
+            input.format(type='text' name='email')
+            span.focus-input2
+          .wrap2
+            label  Passphrase 
+            input.format(type='password' name='password')
+            span.focus-input2
+          .wrap2
+            label  Re-Enter Passphrase 
+            input.format(type='password' name='conpassword')
+            span.focus-input2
+          button.btn(type='submit')  Sign Up 
+        p(style='color: aliceblue;')  Already have a account? 
+          a(href='../static/login_page.html' style='text-decoration: none ; color:  #035AFD')  &nbsp; Login 
+      .image
+        img.img(src='../static/Register.jpg' alt='hacker')

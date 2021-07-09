@@ -1,0 +1,29 @@
+doctype html
+head
+  meta(charset='utf-8')
+  title  IamDeadHacker | Login 
+  link(rel='stylesheet' href='../static/login.css')
+section
+  .imgBx
+    img(src='../static/Hacker4.jpg' alt='loging_hacker')
+  .contentBx
+    .formBx
+      h2  Login 
+      form(action='/login' method='post')
+        .inputBx
+          span  E-mail 
+          input(type='text' name='email')
+        .inputBx
+          span  Passphrase 
+          input(type='password' name='password')
+        .remember
+          label
+            input(type='checkbox' name='')
+            |  Remember Me
+        .inputBx
+          input(type='submit' value='Login' name='')
+          | Login
+      .inputBx
+        p
+          | Don&apos;t have account with us? 
+          a(href='../static/registration.html')  Sign Up
